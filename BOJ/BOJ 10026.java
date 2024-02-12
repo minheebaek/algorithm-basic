@@ -9,7 +9,7 @@ public class Main{
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
-        area = new char[N][N];
+
         visited = new boolean[N][N];
 
         for(int i=0; i<N; i++){//정상
